@@ -1,0 +1,20 @@
+name: ${name}
+version: ${version}
+author: Luca
+main: ${mainClass}
+api-version: 1.20
+depend:
+  - SpigotApi
+commands:
+  setwarp:
+    description: Set a warp on your location
+    permission-message: §cYou dont have the permission.
+    permission: warps.set
+  unsetwarp:
+    description: Remove an existing warp
+    permission-message: §cYou dont have the permission.
+    permission: warps.unset
+  warps:
+    description: Send you the list of all created warps
+  warp:
+    description: Teleports you to the given warp
