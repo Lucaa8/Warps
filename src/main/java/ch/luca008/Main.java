@@ -6,7 +6,6 @@ import org.bukkit.command.TabCompleter;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
