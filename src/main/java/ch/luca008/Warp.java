@@ -144,7 +144,7 @@ public class Warp {
     public String toString() {
         if(!isValid())
             return "Invalid Warp";
-        return "§f- §6" + getName() + " §f("+getCreatedTimeAgo()+"§f par §b"+getCreatedBy().getName()+"§f)\nDescription: " + getDescription();
+        return "§f- §6" + getName() + " §f("+getCreatedTimeAgo()+"§f par §b"+getCreatedBy().getName()+"§f)\nDescription: §7" + getDescription().replace('&', '§');
     }
 
     @Override

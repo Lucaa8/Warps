@@ -12,8 +12,8 @@
     <description>A simple warps plugin that let you create warp location for teleportation</description>
 
     <properties>
-        <maven.compiler.source>19</maven.compiler.source>
-        <maven.compiler.target>19</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <mainClass>ch.luca008.Main</mainClass>
     </properties>
